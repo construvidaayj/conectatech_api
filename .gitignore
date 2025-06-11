@@ -1,0 +1,46 @@
+# Dependencias
+node_modules/
+
+# Salida de compilación de TypeScript
+dist/
+build/
+
+# Archivos de configuración de compilador
+*.tsbuildinfo
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Temporal
+tmp/
+temp/
+*.tmp
+
+# Visual Studio Code
+.vscode/
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos de producción opcionales
+*.log
+
+# PM2 (si usas este manejador de procesos)
+pids
+*.pid
+*.seed
+
+# Otros directorios temporales
+.cache/
