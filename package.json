@@ -2,7 +2,7 @@
   "name": "connecttechapi",
   "version": "1.0.0",
   "description": "Api para connect tech",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/app.ts",
     "build": "rimraf ./dist && tsc",
